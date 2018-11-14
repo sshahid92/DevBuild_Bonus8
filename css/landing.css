@@ -5,7 +5,7 @@ body, html {
 
 .portrait-body {    
     background-image: linear-gradient(#ffffff8f, #f3f3f338), 
-                    url("images/ocmfountain.jpg" );
+                    url("images/ocmfountain.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;                
@@ -52,7 +52,7 @@ body, html {
     justify-content: center;
   }
   
-  #redirect {
+#redirect {
     display: inline-block;
     border: none;
     width: 8em;
@@ -88,7 +88,7 @@ footer {
       margin: 2em;
   }
 
-  .social:hover {
+.social:hover {
     height: 40px;
     width: 40px;
     margin: 2em;
