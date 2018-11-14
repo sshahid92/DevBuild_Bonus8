@@ -1,0 +1,88 @@
+body {    
+    background-image: linear-gradient(#000000be, #0000001c), 
+                    url("images/ocmfountain.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    line-height: 38px;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.subtitle {
+    font-size: .5em;
+}
+
+.profilepic {
+    text-align: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profilepic:hover {
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: 5px 5px 5px #000000af;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #redirect {
+    display: inline-block;
+    border: none;
+    width: 8em;
+    height: 2.3em;
+    margin: 1.9rem;
+    background-color: rgba(162, 163, 163, 0.527);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 16px;
+    transition: all .5s;
+  }
+
+#redirect:hover {
+    display: inline-block;
+    border: none;
+    width: 8em;
+    height: 2.3em;
+    margin: 1.9rem;
+    background-color: rgb(98, 156, 129);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 16px;
+    transform: scale(1.1);
+  }
+
+footer {
+    margin-top: 7.5em;
+}
+
+.social {
+      height: 40px;
+      width: 40px;
+      margin: 2em;
+  }
+
+  .social:hover {
+    height: 40px;
+    width: 40px;
+    margin: 2em;
+    transform: scale(1.1);
+}
+
