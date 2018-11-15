@@ -4,8 +4,8 @@ body, html {
 }
 
 .portrait-body {    
-    background-image: linear-gradient(#ffffff8f, #f3f3f338), 
-                    url("images/ocmfountain.jpg");
+    background-image: linear-gradient(#ffffff8f, #ffffff38), 
+                    url("../images/ocmfountain.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;                
@@ -30,7 +30,7 @@ body, html {
 
 .profilepic {
     position: relative;
-    top: 3.5em;
+    top: 4.5em;
     text-align: center;
     width: 150px;
     height: 150px;
@@ -96,31 +96,41 @@ footer {
 }
 
 .row {
-
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 0px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 24%;
+  max-width: 24%;
+  width: 25%;
+  margin: auto;
   padding: 0 4px;
 }
 
 .column img {
-    width: 530px;
-    height: auto;
+  width: 100%;
+  height: auto;
   margin-top: 8px;
   vertical-align: middle;
 }
 
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 816px) {
   .column {
-    flex: 50%;
+    flex: 48%;
     max-width: 50%;
+  }
+  .column img {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    vertical-align: middle;
   }
 }
 

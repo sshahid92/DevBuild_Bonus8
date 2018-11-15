@@ -1,6 +1,6 @@
 body {    
     background-image: linear-gradient(#000000be, #0000001c), 
-                    url("images/ocmfountain.jpg" );
+                    url("../images/ocmfountain.jpg" );
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,8 +23,8 @@ body {
 .profilepic {
     text-align: center;
     margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     border: 3px solid white;
     transition: all 1s;
@@ -70,7 +70,7 @@ body {
   }
 
 footer {
-    margin-top: 7.5em;
+    margin-top: 2.5em;
 }
 
 .social {
